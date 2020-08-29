@@ -31,7 +31,6 @@ function Login() {
           alt="fbtext"
         />
       </div>
-
       <Button type="submit" onClick={signIn}>
         Sign In
       </Button>
