@@ -1,7 +1,16 @@
 .app {
   background-color: rgb(252, 247, 247);
   height: 100vh;
+  overflow-y: scroll;
 }
 .app__body {
   display: flex;
+}
+.app::-webkit-scrollbar {
+  display: none;
+}
+/* Hide for IE, Edge, Firefox  */
+.app {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
